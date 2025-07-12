@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectIcon">
+
+        <activity
+            android:name=".EcosedKit"
+            android:exported="true"
+            android:icon="@mipmap/ic_ecosedkit"
+            android:label="@string/ecosedkit_name"
+            android:roundIcon="@mipmap/ic_ecosedkit_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EbKit"
+            android:exported="true"
+            android:icon="@mipmap/ic_ebkit"
+            android:label="@string/ebkit_name"
+            android:roundIcon="@mipmap/ic_ebkit_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FreeFEOS"
+            android:exported="true"
+            android:icon="@mipmap/ic_freefeos"
+            android:label="@string/freefeos_name"
+            android:roundIcon="@mipmap/ic_ecosedkit_round">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

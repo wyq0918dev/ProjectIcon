@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectIcon</string>
+    <string name="ecosedkit_name">EcosedKit</string>
+    <string name="ebkit_name">EbKit</string>
+    <string name="freefeos_name">FreeFEOS</string>
+
+    <string name="foreground_text">前景色</string>
+    <string name="background_text">背景色</string>
+</resources>
