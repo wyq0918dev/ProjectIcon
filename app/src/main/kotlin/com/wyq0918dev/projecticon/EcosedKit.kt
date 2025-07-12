@@ -1,6 +1,8 @@
 package com.wyq0918dev.projecticon
 
-import androidx.appcompat.app.AppCompatActivity
-
-class EcosedKit : AppCompatActivity() {
+class EcosedKit : BaseAppActivity() {
+    override fun getAppIcon(): Int = R.mipmap.ic_ecosedkit
+    override fun getAppName(): Int = R.string.ecosedkit_name
+    override fun getForegroundColor(): Int = R.color.ic_ecosedkit_foreground
+    override fun getBackgroundColor(): Int = R.color.ic_ecosedkit_background
 }
