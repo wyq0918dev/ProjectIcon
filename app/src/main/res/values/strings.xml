@@ -3,9 +3,10 @@
     <string name="ecosedkit_name">EcosedKit</string>
     <string name="ebkit_name">EbKit</string>
     <string name="freefeos_name">FreeFEOS</string>
+    <string name="treblekit_name">TrebleKit</string>
 
     <string name="foreground_text">前景色 : %s</string>
     <string name="background_text">背景色 : %s</string>
 
-    <string name="note">macOS 版 AndroidStudio foreground 缩放为 87\% \n其他操作系统需要按照Play版图片通过Photoshop的框选工具等对比大小，调试后找到最合适的数值</string>
+    <string name="note">注: FE, EK, EB 图标在 macOS 版 AndroidStudio foreground 缩放为 87\%, TrebleKit图标在Windows缩放为73\%, 其他操作系统需要按照Play版图片通过Photoshop的框选工具等对比大小，调试后找到最合适的数值</string>
 </resources>

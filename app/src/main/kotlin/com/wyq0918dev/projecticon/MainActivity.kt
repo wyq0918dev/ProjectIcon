@@ -28,5 +28,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.ebkit_button).setOnClickListener {
             startActivity(Intent(this@MainActivity, EbKit::class.java))
         }
+        findViewById<Button>(R.id.treblekit_button).setOnClickListener {
+            startActivity(Intent(this@MainActivity, TrebleKit::class.java))
+        }
     }
 }

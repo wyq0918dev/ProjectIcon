@@ -47,6 +47,14 @@
             android:label="@string/ebkit_name"
             android:launchMode="singleTask"
             android:roundIcon="@mipmap/ic_ebkit_round" />
+
+        <activity
+            android:name=".TrebleKit"
+            android:exported="false"
+            android:icon="@mipmap/ic_treblekit"
+            android:label="@string/treblekit_name"
+            android:launchMode="singleTask"
+            android:roundIcon="@mipmap/ic_treblekit_round" />
     </application>
 
 </manifest>

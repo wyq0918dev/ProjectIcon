@@ -4,6 +4,7 @@
 - FreeFEOS
 - EcosedKit
 - EbKit
+- TrebleKit
 
 禁止使用这些图标文件，除非用于表示他们本身。
 
